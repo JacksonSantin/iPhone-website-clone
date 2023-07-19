@@ -72,7 +72,7 @@
 
 ## 📝 Licença
 
-Este projeto esta sobe a licença [MIT](https://github.com/JacksonSantin/go-crud/blob/master/LICENSE).
+Este projeto esta sobe a licença [MIT](https://github.com/JacksonSantin/iPhone-website-clone/blob/master/LICENSE).
 
 Feito com ❤️ por Jackson Dhanyel Santin 👋🏽 [Entre em contato!](https://curriculo-vitae-web.web.app)
 
