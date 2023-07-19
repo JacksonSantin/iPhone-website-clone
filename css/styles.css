@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+#header {
+  background-color: black;
+  height: 100px;
+}
+
+#header .navBar {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+#header .navBar .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#header .navBar .list .items {
+  margin-right: 2rem;
+  font-size: 0.8rem;
+}
+
+#header .navBar .list .items a {
+  color: #7d7d7e;
+  transition: .5s;
+}
+
+#header .navBar .list .items a:hover {
+  color: #FFFFFF;
+}
+
+/* BottomNavBar */
+#bottomNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#bottomNavBar h3 {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#bottomNavBar .bottomNavBarLinks a {
+  margin-right: 2rem;
+  color: white;
+  font-size: .7rem;
+  transition: .5s;
+}
+
+#bottomNavBar .bottomNavBarLinks a.link:hover {
+  color: #7e7e7e;
+}
+
+#bottomNavBar .bottomNavBarLinks a.active {
+  color: #7e7e7e;
+}
+
+#bottomNavBar .bottomNavBarLinks a.btn {
+  background-color: #0071e3;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  transition: .5s;
+}
+
+#bottomNavBar .bottomNavBarLinks a.btn:hover {
+  background-color: #147ce5;
+}
+
+/* Ribbbon */
+#ribbon {
+  background-color: #161617;
+  text-align: center;
+  padding: .8rem 0;
+  border-top: 1px solid #333333;
+}
+
+#ribbon span {
+  color: #f5f5f7;
+  font-size: .8rem;
+}
+
+#ribbon span a,
+#ribbon span.mdil {
+  color: #2997ff;
+}
+
+#ribbon span a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 775px;
+}
+
+main .mainContentHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+main .mainContentHeader .title {
+  color: #f5f5f7;
+  font-size: 3.5rem;
+}
+
+main .mainContentHeader .bulletColor {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+main .mainContentHeader .bulletColor .colorName {
+  color: #f5f5f7;
+  font-weight: bold;
+  font-size: .9rem;
+  margin-right: 1rem;
+}
+
+main .mainContentHeader .bulletColor .bullets {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+main .mainContentHeader .bulletColor ul li {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: .5rem;
+  box-shadow: 1px 1px 1px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+main .mainContentHeader .bulletColor ul li#purple {
+  background-color: #594F63;
+}
+
+main .mainContentHeader .bulletColor ul li#gold {
+  background-color: #F4E8CE;
+}
+
+main .mainContentHeader .bulletColor ul li#silver {
+  background-color: #F0F2F2;
+}
+
+main .mainContentHeader .bulletColor ul li#black {
+  background-color: #403E3D;
+}
+
+main .mainContentImage #product-image {
+  margin-top: 5rem;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+main .mainContentImage #product-image.changing {
+  opacity: 0;
+}
+
+main .mainContentImage #product-image:not(.changing) {
+  opacity: 1;
+}
+
+main .mainContentInfo {
+  background-color: #161617;
+  width: 100%;
+  margin-top: -.2rem;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .mainContentInfo h3 {
+  color: #CECECE;
+  font-size: 2rem;
+}
+
+main .mainContentInfo span {
+  color: #86868B;
+  font-size: 1rem;
+  margin-top: .8rem;
+}
+
+main .mainContentInfo .btn {
+  margin-top: 2.2rem;
+  background-color: #0071e3;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  transition: .5s;
+}
+
+main .mainContentInfo a.btn:hover {
+  background-color: #147ce5;
+}
