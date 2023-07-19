@@ -183,7 +183,7 @@ main .mainContentHeader .bulletColor ul li#black {
 main .mainContentImage #product-image {
   margin-top: 5rem;
   opacity: 1;
-  transition: opacity 0.5s;
+  transition: 0.5s;
 }
 
 main .mainContentImage #product-image.changing {
